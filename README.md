@@ -41,6 +41,23 @@ This repository contains the code for the backend of the Windows Form App. The b
 - Example Request: /read?index=0
 </pre>
 
+### `/delete/:index` (GET) 
+<pre>
+- Description: Delete a form submission by index.
+- Query Parameters:
+      index (number): Index of the submission (0-based).
+- Example Request: /delete/1
+</pre>
+
+### `/search`
+<pre>
+- Description: search a form submission by email
+- Query Parameters:
+      email (string): email of the submission.
+- Example Request: /read?index=0
+</pre>
+
+
 ### Database : 
 The backend uses a JSON file (db.json) as a simple database to store form submissions.
 
