@@ -7,7 +7,7 @@ This repository contains the code for the backend of the Windows Form App. The b
 1. Clone this repository to your local machine.
 2. Navigate to the `MyForm-Backend` directory.
 3. Install dependencies: `npm install`
-4. Build and run the server: `npm run dev`
+4. Build and run the server: `npm start`
 
 ## API Endpoints
 
