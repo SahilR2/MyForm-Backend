@@ -54,7 +54,7 @@ This repository contains the code for the backend of the Windows Form App. The b
 - Description: search a form submission by email
 - Query Parameters:
       email (string): email of the submission.
-- Example Request: /read?index=0
+- Example Request: /search
 </pre>
 
 
