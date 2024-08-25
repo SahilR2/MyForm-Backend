@@ -5,9 +5,9 @@ This repository contains the code for the backend of the Windows Form App. The b
 ## Setup Instructions
 
 1. Clone this repository to your local machine.
-2. Navigate to the `backend` directory.
+2. Navigate to the `MyForm-Backend` directory.
 3. Install dependencies: `npm install`
-4. Build and run the server: `npm run dev`
+4. Build and run the server: `npm start`
 
 ## API Endpoints
 
@@ -54,7 +54,7 @@ This repository contains the code for the backend of the Windows Form App. The b
 - Description: search a form submission by email
 - Query Parameters:
       email (string): email of the submission.
-- Example Request: /read?index=0
+- Example Request: /search
 </pre>
 
 
